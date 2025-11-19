@@ -6,25 +6,58 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	title="High-converting landing pages for YC's fastest-growing startups"
+	subtitle="Ship your landing page in days, not weeks. Conversion-optimized design patterns meet rapid execution."
+	centered={true}
+	customers={[
+		{
+			name: "Sarah Chen",
+			position: "Founder, Mooodboard",
+			imageSrc: "/generated/image-candid-environmental-portrait-of-a-profe.webp"
+		},
+		{
+			name: "Marcus Rivera",
+			position: "CEO, Hillclimb",
+			imageSrc: "/generated/image-candid-environmental-portrait-of-a-profe.webp"
+		},
+		{
+			name: "Emily Patel",
+			position: "Co-founder, Imagine AI",
+			imageSrc: "/generated/image-candid-documentary-style-portrait-of-a-p.webp"
+		},
+		{
+			name: "David Kim",
+			position: "Founder, Clarum",
+			imageSrc: "/generated/image-candid-environmental-portrait-of-a-profe.webp"
+		},
+		{
+			name: "Jessica Wong",
+			position: "CEO, Stealth Startup",
+			imageSrc: "/generated/image-candid-documentary-portrait-of-a-profess.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by YC's fastest-growing startups"
+	mode="dark"
+	logoUrls={[
+		'https://cdn.brandfetch.io/retool.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/webflow.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/idgEcYrCaG/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/idmfGfVgqd/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
 			name: "Jane Smith",
@@ -54,7 +87,6 @@
 />
 
 <Features
-	generating
 	title="Features"
 	subtitle="Some features"
 	features={[
@@ -75,5 +107,5 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />
