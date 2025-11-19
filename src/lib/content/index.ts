@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Semiotic",
+	description: "High-converting landing pages for fast-growing startups. Conversion-optimized design patterns with rapid execution for YC-backed founders.",
 	image: "/og.png",
-	url: "https://example.com",
+	url: "https://semiotic.com",
 	fontFamily: "Inter Variable"
 };
