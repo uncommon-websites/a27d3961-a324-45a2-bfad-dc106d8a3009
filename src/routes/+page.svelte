@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
+	
+	// Icons
+	import IconZap from "~icons/lucide/zap";
+	import IconTrendingUp from "~icons/lucide/trending-up";
+	import IconUsers from "~icons/lucide/users";
+	import IconDollarSign from "~icons/lucide/dollar-sign";
+	import IconSparkles from "~icons/lucide/sparkles";
+	import IconRefreshCw from "~icons/lucide/refresh-cw";
 </script>
 
 <CustomerCardHero
@@ -53,59 +61,102 @@
 />
 
 <Summary
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Semiotic delivers high-converting landing pages specifically for YC-backed startups who need to launch fast. We combine proven conversion patterns from analyzing top performers with rapid two-week delivery, so non-technical founders can validate product-market fit without expensive agency timelines or design resources."
 />
 
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Deshmukh",
+			position: "Founder",
+			company: "Velora AI",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We shipped our landing page in 5 days instead of the 6 weeks our agency quoted. That speed let us launch before Demo Day and secure our seed round. The conversion-optimized patterns they used drove 3x more signups than our previous MVP page.",
+			image: "/generated/image-candid-environmental-portrait-of-a-confi.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Jamal Richardson",
+			position: "Co-founder & CEO",
+			company: "Nucleus",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Fixed pricing saved us $15K compared to agency quotes, and the quality was honestly better. For a pre-seed startup watching every dollar, that was make-or-break. We redirected those savings into our first engineering hire.",
+			image: "/generated/image-candid-environmental-headshot-of-a-confi.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Arjun Mehta",
+			position: "Founder",
+			company: "Compass Analytics",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Their conversion patterns are based on data from top performers, not guesswork. Our sign-up rate jumped from 2% to 8% after launch. Instead of A/B testing for months, we started with a page that actually converts.",
+			image: "/generated/image-candid-documentary-portrait-of-a-confide.webp"
 		}
 	]}
 />
 
 <Features
-	title="Features"
-	subtitle="Some features"
+	title="Built for speed, optimized for conversion"
+	subtitle="Everything you need to ship a high-converting landing page that validates product-market fit fast"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Ship in under 2 weeks",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Fixed 2-week delivery from kickoff to launch. No agency timelines, no endless revisions, just rapid execution when you need it most.",
+			icon: IconZap,
+			iconClass: "text-[#22D3EE]"
 		},
 		{
-			title: "Data Analysis",
+			title: "Conversion-optimized patterns",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Design patterns analyzed from top-performing landing pages. Every element is crafted to drive signups and validate your product-market fit.",
+			icon: IconTrendingUp,
+			iconClass: "text-[#6366F1]"
 		},
 		{
-			title: "Secure Collaboration",
+			title: "YC ecosystem expertise",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"We speak your language because we live in your world. Built specifically for YC founders who need to move fast and prove traction.",
+			icon: IconUsers,
+			iconClass: "text-[#8B5CF6]"
+		},
+		{
+			title: "Fixed pricing, zero surprises",
+			description:
+				"One price, no hidden costs, no scope creep. Get agency-quality work without the agency bloat or unpredictable invoices.",
+			icon: IconDollarSign,
+			iconClass: "text-[#22D3EE]"
+		},
+		{
+			title: "Metalab-quality design",
+			description:
+				"Polished, sophisticated aesthetics inspired by design leaders. Your landing page will look like it came from a top-tier agency.",
+			icon: IconSparkles,
+			iconClass: "text-[#6366F1]"
+		},
+		{
+			title: "Rapid post-launch iteration",
+			description:
+				"Launch isn't the end, it's the beginning. Quick iteration cycles help you optimize conversion rates as you learn from real users.",
+			icon: IconRefreshCw,
+			iconClass: "text-[#8B5CF6]"
 		}
 	]}
 />
 <AboutTeaser />
-<CallToAction />
+<CallToAction
+	title="Launch your high-converting landing page in under 2 weeks"
+	subtitle="Your YC batch is moving fast. Don't fall behind."
+	description="Every day without a landing page is a day you can't validate product-market fit or capture leads. Book a 30-minute call this week and ship your conversion-optimized page before your next investor meeting."
+	imageSrc="/generated/image-a-candid-documentary-style-photo-of-a-di.webp"
+	callsToAction={[
+		{
+			href: "https://cal.com/uncommon/30min",
+			label: "Book your 30-minute call",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "See our process",
+			variant: "secondary"
+		}
+	]}
+/>

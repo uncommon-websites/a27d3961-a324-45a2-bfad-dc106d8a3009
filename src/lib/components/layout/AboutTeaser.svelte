@@ -17,22 +17,20 @@ A minimalist teaser for the about page.
 	// State
 	let sectionRef: HTMLElement;
 
-	let props = $props();
-
 	// Data
 	const teamMember: TeamMember = {
 		name: "Alex Morgan",
 		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		image: "/generated/image-a-candid-medium-wide-documentary-photogr.webp"
 	};
 </script>
 
-<section bind:this={sectionRef} {...props}>
+<section bind:this={sectionRef}>
 	<div class="section-px section-py container mx-auto">
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"I watched too many brilliant founders spend weeks negotiating with agencies when they should've been talking to users. After helping my third YC batchmate ship their landing page overnight, I realized this problem was bigger than I thought. Now we're building what I wish existed during our batch."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
