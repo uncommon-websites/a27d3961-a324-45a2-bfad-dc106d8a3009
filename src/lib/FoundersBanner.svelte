@@ -25,14 +25,14 @@
       </div>
 
       <h2 class="text-3xl md:text-4xl font-normal text-white mb-6 leading-tight">
-        Giving projects another option for their cap table
+        AI-crafted landing pages for tomorrow’s top startups
       </h2>
       <p class="text-gray-300 text-sm mb-10 max-w-lg mx-auto leading-relaxed">
-        Echo helps you raise from people who believe in what you're building — whether it's through our private investor groups or directly from your own community.
+        Semiotic accelerates your go-to-market with conversion-driven landing pages—designed, built, and iterated by AI in a matter of hours, not weeks. Founders can focus on building product while we deliver compelling design.
       </p>
       
       <a href="/" class="inline-block border border-white/20 text-white px-6 py-3 text-sm hover:bg-white/10 transition-colors rounded-sm">
-        See Echo for founders
+        Explore Semiotic for startups
       </a>
     </div>
   </div>

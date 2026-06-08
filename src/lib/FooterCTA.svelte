@@ -10,10 +10,10 @@
 
   <div class="relative z-10 max-w-2xl mx-auto">
     <h2 class="text-3xl md:text-5xl font-normal text-gray-900 mb-10 leading-tight">
-      A decentralised economy demands a distributed community
+      AI-powered landing pages for SF's boldest founders
     </h2>
     <a href="/" class="bg-black text-white px-8 py-3.5 text-sm hover:bg-gray-800 transition-colors">
-      Get started as investor
+      Start with a free portfolio review
     </a>
   </div>
 </section>

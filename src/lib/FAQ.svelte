@@ -3,13 +3,13 @@
   let openIndex: number | null = null;
 
   const faqs = [
-    "Do I have to trust the lead investor with my investment?",
-    "How does Echo work?",
-    "I want to share my deals. Can I start a group?",
-    "I'm a founder. How do I raise money from Echo?",
-    "Is everyone eligible to use Echo?",
-    "Why do founders raise from Echo groups?",
-    "Why would someone share their deals with me?"
+    "Do I have to trust AI with my company's brand?",
+    "How does Semiotic help create landing pages?",
+    "I want to showcase multiple products. Can you support this?",
+    "I'm a founder. How do I start with Semiotic?",
+    "Is Semiotic available for all startups?",
+    "Why do founders choose Semiotic for landing pages?",
+    "What are the benefits of sharing my site needs with Semiotic?"
   ];
 
   function toggle(index: number) {
@@ -21,9 +21,9 @@
   <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
     <div class="md:col-span-4">
       <h2 class="text-3xl md:text-4xl font-normal text-gray-900 mb-6 max-w-xs leading-tight">
-        Frequently asked questions
+        Your questions about Semiotic, answered
       </h2>
-      <a href="/" class="text-sm text-gray-500 underline underline-offset-4 hover:text-black">See all support</a>
+      <a href="/" class="text-sm text-gray-500 underline underline-offset-4 hover:text-black">Visit support center</a>
     </div>
     <div class="md:col-span-8">
       <div class="border-t border-gray-200">
@@ -41,7 +41,7 @@
             {#if openIndex === i}
               <div class="pb-6 text-sm text-gray-500 leading-relaxed">
                 <!-- Placeholder answer -->
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                Have more questions? Our team is happy to talk — Semiotic lets you launch best-in-class landing pages powered by AI-driven design, tailored for early-stage founders.
               </div>
             {/if}
           </div>
